@@ -1,6 +1,6 @@
 {
   "name": "test-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Function to check the type and message content of a Node.js Error",
   "keywords": [
     "assert",
@@ -22,6 +22,7 @@
   },
   "scripts": {
     "coverage": "istanbul cover _mocha -- -u tdd",
+    "coveralls": "istanbul cover _mocha --report lcovonly -- -u tdd && cat ./coverage/lcov.info | coveralls",
     "test": "mocha -u tdd"
   }
 }

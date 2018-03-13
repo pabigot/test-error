@@ -1,6 +1,6 @@
 {
   "name": "test-error",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Function to check the type and message content of a Node.js Error",
   "keywords": [
     "assert",

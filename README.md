@@ -43,9 +43,29 @@ describe('suite', function() {
   `test` method must accept `error.message`.  If not provided the value
   of `error.message` is not tested.
 
-Returns `true` if the provided `constructor` and `msgCheck`
-verifications succeed, `false` otherwise.
+Returns `false` if a provided `constructor` or `msgCheck` verification
+fails, `true` otherwise.
+
+## Change Log
+
+All changes since 1.0.0 relate to package documentation.
+
+### [1.0.2] - 2018-03-17
+
+* Correct documentation of behavior in the case where no verifications
+  are provided.
+
+### [1.0.1] - 2018-03-13
+
+* Add script to `package.json` so coveralls updates are performed.
+
+### 1.0.0 - 2018-03-13
+
+* Initial release
 
 ## License
 
 * [MIT License](https://opensource.org/licenses/MIT)
+
+[1.0.2]: https://github.com/pabigot/test-error/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/pabigot/test-error/compare/v1.0.0...v1.0.1
